@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-highcharts-example",
+  "version": "0.01.0",
+  "description": "Este fue un ejemplo muy simple que hice para un amigo, pero si a alguien más le sirve, bienvenido sea.",
+  "homepage": "https://github.com/gnicolasarroyo/angularjs-highcharts-example",
+  "author": {
+    "name": "G. Nicolas Arroyo",
+    "site": "https://twitter.com/gnicoarr"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp"        : "*",
+    "gulp-connect": "*",
+    "gulp-util"   : "*"
+  }
+}

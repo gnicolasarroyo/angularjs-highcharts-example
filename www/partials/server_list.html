@@ -1,0 +1,10 @@
+<h1>Server List</h1>
+<ul>
+    <li ng-repeat="server in servidores">
+        <h3>{{ server.name }}</h3>
+        <p>{{ server.descrip }}</p>
+        <p>Ping <strong>{{ server.ping }}</strong></p>
+        <p>OS <strong>{{ server.os }}</strong></p>
+        <div id="chart-server-{{ server.id }}" style="height: 300px; width: 500px;"></div>
+    </li>
+</ul>
